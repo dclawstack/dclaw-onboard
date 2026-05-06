@@ -1,0 +1,4 @@
+DClaw Onboard deployed!
+
+Frontend: http://dclaw-onboard.local
+Backend API: http://dclaw-onboard-backend:8129
