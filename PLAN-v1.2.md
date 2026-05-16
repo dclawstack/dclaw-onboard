@@ -1,5 +1,8 @@
 # DClaw Onboard — v1.2 Feature Roadmap
 
+> 📘 **REVISED PRD v2.3 available:** See `REVISED-PRD.md` for complete gap analysis, current state, and full feature roadmap.
+
+
 > Based on: Y Combinator vertical SaaS principles, trending GitHub repos (checklist-app), AI product research (BambooHR, Workday, Sapling, Enboarder)
 
 ## Pre-Flight Checklist
