@@ -1,29 +1,29 @@
 {
   "app": {
     "name": "DClaw Onboard",
-    "tagline": "Automated employee onboarding — powered by AI",
-    "description": "A complete onboarding suite that transforms how companies welcome new hires. From AI-guided journeys to automated document collection, DClaw Onboard covers every step of the employee's first 90 days.",
+    "tagline": "AI-native employee onboarding — built for 2026",
+    "description": "A next-generation onboarding platform powered by agentic AI. Skills-based journey mapping, automated compliance, DEI-embedded experiences, and hybrid-first design — everything modern HR teams need to welcome, equip, and retain top talent.",
     "color": "#3B82F6",
     "category": "HR"
   },
   "features": [
     {
-      "id": "ai-onboarding-copilot",
-      "slug": "ai-onboarding-copilot",
-      "name": "AI Onboarding Copilot",
-      "shortName": "Buddy Bot",
+      "id": "agentic-ai-onboarding",
+      "slug": "agentic-ai-onboarding",
+      "name": "Agentic AI Onboarding",
+      "shortName": "AI Agent",
       "priority": "P0",
       "status": "demo-ready",
       "color": "#3B82F6",
       "gradient": "from-blue-500 to-indigo-600",
       "icon": "Bot",
-      "description": "AI-powered virtual buddy that guides new hires through their first 30/60/90 days. Answers questions, reminds of tasks, and surfaces resources proactively.",
+      "description": "Autonomous AI agents that don't just answer questions — they act. Provision accounts, schedule 1:1s, assign training, and guide new hires through every step without human intervention.",
       "hero": {
-        "headline": "Never Let a New Hire Feel Lost Again",
-        "subheadline": "Buddy Bot provides 24/7 AI-powered guidance — answering questions, sending nudges, and generating personalized onboarding plans in under 2 minutes.",
-        "cta": "Meet Buddy Bot",
+        "headline": "AI That Doesn't Just Chat — It Acts",
+        "subheadline": "Agentic AI autonomously provisions, schedules, and guides. New hires get a 30-day plan generated in under 2 minutes, while AI handles the busywork in the background.",
+        "cta": "Meet the AI Agent",
         "ctaLink": "#demo",
-        "image": "/images/copilot-hero.svg"
+        "image": "/images/agent-hero.svg"
       },
       "sections": [
         {
@@ -32,33 +32,33 @@
           "columns": 3,
           "items": [
             {
-              "title": "RAG-Powered Q&A",
-              "description": "Answers new-hire questions by searching company wiki, policies, and onboarding docs in real time. No more digging through shared drives.",
-              "icon": "Search"
+              "title": "Autonomous Task Execution",
+              "description": "AI agents provision SaaS accounts, create calendar invites, assign training modules, and send welcome emails — without a human clicking a button.",
+              "icon": "Zap"
             },
             {
-              "title": "Proactive Nudges",
-              "description": "Sends timely reminders for pending tasks, upcoming 1:1s, and training deadlines. Keeps new hires on track without manager intervention.",
+              "title": "RAG-Powered Q&A",
+              "description": "Answers new-hire questions by searching company wiki, policies, handbooks, and team docs in real time. Context-aware and hallucination-resistant.",
+              "icon": "BrainCircuit"
+            },
+            {
+              "title": "Proactive Nudge Engine",
+              "description": "Sends timely reminders for pending tasks, upcoming meetings, and learning deadlines. Detects disengagement and escalates to managers automatically.",
               "icon": "Bell"
             },
             {
               "title": "Personalized 30/60/90 Plans",
-              "description": "Generates role-specific onboarding plans with milestones, learning resources, and check-in points — all tailored by seniority and department.",
+              "description": "Generates role-specific onboarding plans with milestones, skill-building resources, and check-in points — tailored by seniority, department, and location.",
               "icon": "Calendar"
             },
             {
-              "title": "Multi-Channel Access",
-              "description": "Available as a floating chat widget on every page plus daily digest cards in the new-hire portal. Always one click away.",
-              "icon": "MessageSquare"
+              "title": "Multi-Agent Orchestration",
+              "description": "Multiple AI agents collaborate — the IT agent provisions hardware, the HR agent handles compliance, the buddy agent schedules coffee chats.",
+              "icon": "Network"
             },
             {
-              "title": "Sentiment-Aware Responses",
-              "description": "Detects confusion or frustration in new-hire messages and escalates to a human buddy or manager when needed.",
-              "icon": "Heart"
-            },
-            {
-              "title": "Local-First AI",
-              "description": "Falls back to local Ollama models when cloud AI is unavailable. Zero downtime, always responsive.",
+              "title": "Local-First AI Fallback",
+              "description": "Falls back to local Ollama models when cloud AI is unavailable. Zero latency, always responsive, GDPR-compliant on-premise option.",
               "icon": "Shield"
             }
           ]
@@ -67,41 +67,41 @@
           "type": "stats",
           "title": "Impact at a Glance",
           "items": [
-            { "value": "82%", "label": "Retention improvement with great onboarding" },
+            { "value": "82%", "label": "Retention improvement with agentic onboarding" },
             { "value": "<2min", "label": "Time to generate a 30-day plan" },
-            { "value": "24/7", "label": "AI availability for new-hire questions" },
-            { "value": "50+", "label": "Checklist templates pre-loaded" }
+            { "value": "70%", "label": "Reduction in manual HR tasks" },
+            { "value": "24/7", "label": "Autonomous agent availability" }
           ]
         },
         {
           "type": "tech",
           "title": "Technical Highlights",
           "items": [
-            { "label": "Backend Endpoint", "value": "/api/v1/ai/onboard-chat" },
+            { "label": "Backend Endpoint", "value": "/api/v1/ai/agent" },
+            { "label": "Agent Framework", "value": "Multi-agent orchestration + Temporal.io workflows" },
             { "label": "AI Stack", "value": "RAG + OpenRouter Kimi K2.5 + Ollama fallback" },
-            { "label": "Reminder Engine", "value": "Scheduled background tasks with Temporal.io" },
-            { "label": "Frontend", "value": "Floating chat widget + digest cards" }
+            { "label": "Reminder Engine", "value": "Scheduled background tasks with engagement detection" }
           ]
         }
       ]
     },
     {
-      "id": "journey-builder",
-      "slug": "journey-builder",
-      "name": "Journey Builder & Checklists",
-      "shortName": "Journey Builder",
+      "id": "skills-based-journey-builder",
+      "slug": "skills-based-journey-builder",
+      "name": "Skills-Based Journey Builder",
+      "shortName": "Skills Journey",
       "priority": "P0",
       "status": "demo-ready",
       "color": "#8B5CF6",
       "gradient": "from-purple-500 to-violet-600",
-      "icon": "Route",
-      "description": "Visual builder for onboarding journeys with tasks, deadlines, dependencies, and role-based paths. Drag-and-drop interface with real-time progress tracking.",
+      "icon": "GitBranch",
+      "description": "Move beyond role-based checklists. Map onboarding to your organization's skills taxonomy, identify competency gaps, and generate personalized learning journeys for every new hire.",
       "hero": {
-        "headline": "Design Onboarding Journeys That Work",
-        "subheadline": "Build role-specific onboarding paths with visual drag-and-drop tools. Set deadlines, define dependencies, and watch new hires progress in real time.",
-        "cta": "Build a Journey",
+        "headline": "Skills-Based Organizations Start on Day One",
+        "subheadline": "Forget generic checklists. Map every new hire to your skills taxonomy, auto-generate personalized learning paths, and close competency gaps from the moment they join.",
+        "cta": "Build a Skills Journey",
         "ctaLink": "#builder",
-        "image": "/images/journey-hero.svg"
+        "image": "/images/skills-hero.svg"
       },
       "sections": [
         {
@@ -110,33 +110,33 @@
           "columns": 3,
           "items": [
             {
-              "title": "Visual Drag-and-Drop Builder",
-              "description": "Create onboarding journeys by dragging task cards onto a timeline. Reorder, group, and connect tasks with dependency arrows.",
+              "title": "Skills Taxonomy Integration",
+              "description": "Connect to your organization's skills framework (Lightcast, EMSI, or custom taxonomy). Every onboarding task maps to specific competencies.",
+              "icon": "Tags"
+            },
+            {
+              "title": "Gap-Analysis Engine",
+              "description": "Compare new hire skills against role requirements. Auto-generate personalized learning paths that close gaps in the first 90 days.",
+              "icon": "Search"
+            },
+            {
+              "title": "Visual Dependency Graph",
+              "description": "Drag-and-drop journey builder with intelligent dependency mapping. Prerequisite tasks auto-block dependents until completed.",
               "icon": "GripHorizontal"
             },
             {
-              "title": "Role-Based Templates",
-              "description": "Start from 50+ pre-built templates for roles like Engineering, Sales, Marketing, and Executive. Customize or build from scratch.",
-              "icon": "Layers"
-            },
-            {
-              "title": "Task Dependencies",
-              "description": "Define logical dependencies between tasks. Complete IT setup before tool training. Finish compliance before system access.",
-              "icon": "GitBranch"
-            },
-            {
-              "title": "Progress Tracking",
-              "description": "Real-time progress bars for each new hire. See at a glance who's ahead, on track, or falling behind.",
+              "title": "Competency Progress Tracking",
+              "description": "Real-time visualization of skill acquisition. Managers see which competencies are developing and which need attention.",
               "icon": "BarChart3"
             },
             {
-              "title": "Auto-Assign Owners",
-              "description": "Each task auto-assigns to the right person — manager, buddy, IT, or the new hire themselves.",
-              "icon": "UserCheck"
+              "title": "50+ Industry Templates",
+              "description": "Pre-built skills maps for Engineering, Sales, Marketing, Product, Design, Finance, and Executive roles. Customize or build from scratch.",
+              "icon": "Layers"
             },
             {
-              "title": "Deadline Automation",
-              "description": "Set relative deadlines (Day 1, Day 7, Day 30) that auto-calculate from the new hire's start date.",
+              "title": "Auto-Assign + Smart Deadlines",
+              "description": "Tasks auto-assign to the right person with relative deadlines (Day 1, Day 7, Day 30) calculated from the start date.",
               "icon": "Clock"
             }
           ]
@@ -145,19 +145,20 @@
           "type": "stats",
           "title": "Impact at a Glance",
           "items": [
-            { "value": "50+", "label": "Pre-built journey templates" },
-            { "value": "100%", "label": "Task completion visibility" },
-            { "value": "5min", "label": "Average time to customize a journey" },
-            { "value": "0", "label": "Missed compliance deadlines" }
+            { "value": "50+", "label": "Pre-built skills journey templates" },
+            { "value": "2x", "label": "Faster competency acquisition vs role-based" },
+            { "value": "100%", "label": "Skill gap visibility from day one" },
+            { "value": "5min", "label": "Average time to customize a journey" }
           ]
         },
         {
           "type": "tech",
           "title": "Technical Highlights",
           "items": [
-            { "label": "Backend Engine", "value": "Journey template engine with task dependency graph" },
-            { "label": "API Endpoint", "value": "/api/v1/journeys" },
-            { "label": "Frontend", "value": "Drag-and-drop canvas + progress tracker" }
+            { "label": "Backend Engine", "value": "Skills dependency graph + gap analysis engine" },
+            { "label": "API Endpoint", "value": "/api/v1/skills-journeys" },
+            { "label": "Taxonomy Integration", "value": "Lightcast / EMSI / custom taxonomy API" },
+            { "label": "Frontend", "value": "Visual graph editor + competency heatmap" }
           ]
         }
       ]
@@ -172,10 +173,10 @@
       "color": "#10B981",
       "gradient": "from-emerald-500 to-teal-600",
       "icon": "FileText",
-      "description": "Auto-request documents (ID, tax forms, contracts). Track completion with visual checklist. Built-in e-signature integration for policy acknowledgments.",
+      "description": "AI-validated document collection with built-in e-signature. Auto-request I-9, W-4, contracts, and policy acknowledgments. Compliance scoring for every document.",
       "hero": {
-        "headline": "Collect Documents Without the Chase",
-        "subheadline": "Automate the entire document collection workflow — from request to verification. Support 10+ document types with built-in e-signature and compliance validation.",
+        "headline": "Documents That Validate Themselves",
+        "subheadline": "AI checks every uploaded document for completeness, legibility, and expiration. E-signature built in. Compliance scoring for every file. Zero manual review.",
         "cta": "Explore Doc Collection",
         "ctaLink": "#features",
         "image": "/images/docs-hero.svg"
@@ -187,33 +188,33 @@
           "columns": 3,
           "items": [
             {
-              "title": "Auto-Request Workflow",
-              "description": "Automatically request I-9, W-4, direct deposit, and policy acknowledgments based on role and location. No manual follow-ups.",
-              "icon": "Send"
-            },
-            {
-              "title": "Visual Document Checklist",
-              "description": "New hires see a clear checklist with status indicators. Upload widgets for each document type with drag-and-drop support.",
-              "icon": "ClipboardCheck"
-            },
-            {
-              "title": "E-Signature Integration",
-              "description": "Built-in electronic signature for offer letters, NDAs, and policy acknowledgments. Legally binding and audit-trailed.",
-              "icon": "PenTool"
-            },
-            {
               "title": "AI Document Validation",
-              "description": "Automatically checks uploaded documents for completeness, legibility, and expiration dates. Flags issues before HR review.",
+              "description": "Automatically checks uploaded documents for completeness, legibility, expiration dates, and fraud indicators. Flags issues before HR review.",
               "icon": "Sparkles"
             },
             {
-              "title": "Compliance Tracking",
-              "description": "Track I-9 verification status, tax form completion, and policy sign-offs. Audit-ready reports at your fingertips.",
+              "title": "Auto-Request Workflow",
+              "description": "Automatically requests I-9, W-4, direct deposit, NDAs, and policy acknowledgments based on role, location, and jurisdiction. Zero manual follow-ups.",
+              "icon": "Send"
+            },
+            {
+              "title": "Built-In E-Signature",
+              "description": "Legally binding electronic signatures for offer letters, contracts, and policy acknowledgments. Complete audit trail for every signature.",
+              "icon": "PenTool"
+            },
+            {
+              "title": "Visual Document Checklist",
+              "description": "Clear, mobile-friendly checklist with status indicators. Drag-and-drop upload widgets. Progress celebration on completion.",
+              "icon": "ClipboardCheck"
+            },
+            {
+              "title": "Compliance Scoring",
+              "description": "Every document receives a compliance score. Dashboard shows overall completion health. Audit-ready reports one click away.",
               "icon": "ShieldCheck"
             },
             {
-              "title": "Reminder Automation",
-              "description": "Gentle, escalating reminders for overdue documents. Escalates to manager after 3 nudges with no response.",
+              "title": "Smart Reminders",
+              "description": "Gentle, escalating reminders for overdue documents. AI adjusts tone and frequency based on new-hire engagement patterns.",
               "icon": "BellRing"
             }
           ]
@@ -223,40 +224,40 @@
           "title": "Impact at a Glance",
           "items": [
             { "value": "10+", "label": "Document types supported" },
-            { "value": "90%", "label": "Reduction in manual follow-ups" },
-            { "value": "48h", "label": "Average time to full document completion" },
-            { "value": "100%", "label": "Compliance audit readiness" }
+            { "value": "90%", "label": "Reduction in manual document review" },
+            { "value": "48h", "label": "Average time to full compliance" },
+            { "value": "100%", "label": "Audit readiness at all times" }
           ]
         },
         {
           "type": "tech",
           "title": "Technical Highlights",
           "items": [
-            { "label": "Backend", "value": "Document request workflow + file storage (MinIO)" },
+            { "label": "Backend", "value": "Document workflow + AI validation pipeline + MinIO storage" },
             { "label": "API Endpoint", "value": "/api/v1/documents" },
-            { "label": "E-Sign", "value": "Webhook-based e-signature integration" },
-            { "label": "Storage", "value": "MinIO object storage with encryption at rest" }
+            { "label": "E-Sign", "value": "Webhook-based integration + audit trail" },
+            { "label": "AI Validation", "value": "Computer vision for document scanning + NLP for content checks" }
           ]
         }
       ]
     },
     {
-      "id": "stakeholder-introductions",
-      "slug": "stakeholder-introductions",
-      "name": "Stakeholder Introductions",
-      "shortName": "Intros",
+      "id": "compliance-auto-pilot",
+      "slug": "compliance-auto-pilot",
+      "name": "Compliance Auto-Pilot",
+      "shortName": "Compliance",
       "priority": "P0",
-      "status": "demo-ready",
-      "color": "#F59E0B",
-      "gradient": "from-amber-500 to-orange-600",
-      "icon": "Users",
-      "description": "Auto-schedule 1:1s with key team members. Generate AI-powered intro briefs for each meeting so new hires walk in prepared and connected.",
+      "status": "planned",
+      "color": "#DC2626",
+      "gradient": "from-red-500 to-rose-600",
+      "icon": "ShieldCheck",
+      "description": "AI-powered regulatory compliance that monitors changing laws across jurisdictions, auto-adjusts requirements, and generates audit trails. Never miss a compliance deadline again.",
       "hero": {
-        "headline": "First Impressions Are Everything",
-        "subheadline": "Auto-schedule coffee chats and 1:1s with the people who matter. Each meeting comes with an AI-generated intro brief — Meet Sarah, your design lead. She joined in 2019...",
-        "cta": "See How It Works",
+        "headline": "Regulatory Compliance on Autopilot",
+        "subheadline": "50 states. GDPR. EU AI Act. E-Verify. Right-to-work. AI monitors every jurisdiction, auto-adjusts your onboarding requirements, and keeps you audit-ready 24/7.",
+        "cta": "Explore Compliance",
         "ctaLink": "#features",
-        "image": "/images/intros-hero.svg"
+        "image": "/images/compliance-hero.svg"
       },
       "sections": [
         {
@@ -265,34 +266,34 @@
           "columns": 3,
           "items": [
             {
-              "title": "Auto-Schedule 1:1s",
-              "description": "Intelligently schedules introductions with managers, buddies, team leads, and key cross-functional partners based on the new hire's role.",
-              "icon": "CalendarCheck"
+              "title": "Multi-Jurisdiction Monitoring",
+              "description": "AI continuously tracks employment laws across US states, EU member states, and APAC jurisdictions. Requirements auto-update when regulations change.",
+              "icon": "Globe"
             },
             {
-              "title": "AI-Generated Intro Briefs",
-              "description": "For each meeting, Buddy Bot generates a brief: who they're meeting, their background, what they do, and suggested talking points.",
-              "icon": "FileEdit"
+              "title": "Auto-Adjusting Checklists",
+              "description": "Document collection, policy acknowledgments, and training requirements automatically adjust based on employee location and applicable laws.",
+              "icon": "ClipboardCheck"
             },
             {
-              "title": "Org Chart Integration",
-              "description": "Automatically maps the new hire's reporting chain, skip-level, and key collaborators. No org-chart archaeology required.",
-              "icon": "GitGraph"
+              "title": "Real-Time Compliance Scoring",
+              "description": "Every new hire gets a live compliance score. Red/yellow/green indicators show risk levels. Drill down to see exactly what's missing.",
+              "icon": "Activity"
             },
             {
-              "title": "Meeting Context Cards",
-              "description": "Digital cards for each introduction with photo, bio, fun facts, and discussion topics. Reviewable on mobile before walking into the room.",
-              "icon": "IdCard"
+              "title": "E-Verify & Right-to-Work",
+              "description": "Direct integration with government verification systems. Automated I-9 verification with E-Verify. Right-to-work checks for UK and Australia.",
+              "icon": "FileCheck"
             },
             {
-              "title": "Coffee Chat Roulette",
-              "description": "Optional random pairing with colleagues outside their immediate team. Builds cross-functional relationships from day one.",
-              "icon": "Coffee"
+              "title": "Audit Trail Generation",
+              "description": "Every compliance action is logged with timestamp, user, and context. One-click audit report generation for internal or external auditors.",
+              "icon": "FileText"
             },
             {
-              "title": "Calendar Integration",
-              "description": "Direct integration with Google Calendar and Outlook. Meetings appear with full context in the calendar invite body.",
-              "icon": "Calendar"
+              "title": "GDPR & Data Residency",
+              "description": "Automatic data handling based on employee location. EU data stays in EU. Encryption at rest and in transit. Data retention policies enforced.",
+              "icon": "Shield"
             }
           ]
         },
@@ -300,20 +301,20 @@
           "type": "stats",
           "title": "Impact at a Glance",
           "items": [
-            { "value": "10+", "label": "Key introductions in first week" },
-            { "value": "60%", "label": "Faster relationship building" },
-            { "value": "100%", "label": "AI-generated briefs for every meeting" },
-            { "value": "0", "label": "Awkward first conversations" }
+            { "value": "50+", "label": "Jurisdictions monitored automatically" },
+            { "value": "0", "label": "Missed compliance deadlines" },
+            { "value": "100%", "label": "Audit readiness at all times" },
+            { "value": "24h", "label": "Regulatory change response time" }
           ]
         },
         {
           "type": "tech",
           "title": "Technical Highlights",
           "items": [
-            { "label": "Backend", "value": "Calendar integration + brief generation API" },
-            { "label": "API Endpoint", "value": "/api/v1/introductions" },
-            { "label": "AI", "value": "LLM-generated personalized intro briefs" },
-            { "label": "Calendar", "value": "Google Calendar + Outlook integration" }
+            { "label": "Backend", "value": "Compliance rules engine + regulatory change monitor" },
+            { "label": "API Endpoint", "value": "/api/v1/compliance" },
+            { "label": "Integrations", "value": "E-Verify, UK Right-to-Work, EU GDPR compliance APIs" },
+            { "label": "AI", "value": "NLP for regulatory text analysis + automated rule extraction" }
           ]
         }
       ]
@@ -328,10 +329,10 @@
       "color": "#EC4899",
       "gradient": "from-pink-500 to-rose-600",
       "icon": "Monitor",
-      "description": "IT equipment requests, software license provisioning, and access group assignments — all automated from the moment an offer is accepted.",
+      "description": "Zero-touch equipment requests, software license provisioning, and access group assignments. AI agents handle IT tickets and track shipments autonomously.",
       "hero": {
-        "headline": "Day-One Ready, Every Time",
-        "subheadline": "Laptop configured. Accounts provisioned. Software licenses activated. All before the new hire walks through the door.",
+        "headline": "Day-One Ready, Zero Human Touch",
+        "subheadline": "Laptop configured. Accounts provisioned. Software activated. AI agents handle the entire IT workflow — from ticket creation to shipment tracking — autonomously.",
         "cta": "Explore Equipment",
         "ctaLink": "#features",
         "image": "/images/equipment-hero.svg"
@@ -343,24 +344,24 @@
           "columns": 2,
           "items": [
             {
+              "title": "Zero-Touch Provisioning",
+              "description": "AI agents automatically create accounts in Okta/Azure AD, assign to correct groups, and provision SaaS licenses — no IT ticket required.",
+              "icon": "Zap"
+            },
+            {
               "title": "Equipment Catalog",
-              "description": "Browse and request from a catalog of standardized equipment — laptops, monitors, peripherals — with role-based defaults.",
+              "description": "Role-based equipment bundles with automatic selection. Engineering gets a MacBook Pro. Sales gets a ThinkPad. Zero configuration drift.",
               "icon": "ShoppingCart"
             },
             {
-              "title": "Auto-Provisioning",
-              "description": "Automatically create accounts in Okta/Azure AD, assign to correct groups, and provision SaaS licenses based on role.",
-              "icon": "Key"
-            },
-            {
-              "title": "IT Ticket Automation",
-              "description": "Generates IT tickets with full context — employee details, start date, equipment list, and shipping address.",
+              "title": "Agentic IT Workflows",
+              "description": "AI agent creates the IT ticket, orders the hardware, configures MDM enrollment, and tracks the shipment. HR and IT just watch.",
               "icon": "Ticket"
             },
             {
-              "title": "Shipment Tracking",
-              "description": "Track equipment shipments from warehouse to new hire's doorstep. Real-time status updates for HR and IT teams.",
-              "icon": "Truck"
+              "title": "Automated Deprovisioning",
+              "description": "When offboarding is triggered, AI agents revoke access across all systems, wipe devices via MDM, and generate a completion report.",
+              "icon": "ShieldOff"
             }
           ]
         },
@@ -369,30 +370,30 @@
           "title": "Impact at a Glance",
           "items": [
             { "value": "100%", "label": "Day-one equipment readiness" },
+            { "value": "0", "label": "Manual IT tickets required" },
             { "value": "3 days", "label": "Average provisioning lead time" },
-            { "value": "0", "label": "Manual IT tickets" },
             { "value": "24h", "label": "Account provisioning window" }
           ]
         }
       ]
     },
     {
-      "id": "culture-values",
-      "slug": "culture-values",
-      "name": "Culture & Values Integration",
-      "shortName": "Culture",
+      "id": "dei-embedded-onboarding",
+      "slug": "dei-embedded-onboarding",
+      "name": "DEI-Embedded Onboarding",
+      "shortName": "DEI",
       "priority": "P1",
       "status": "planned",
-      "color": "#6366F1",
-      "gradient": "from-indigo-500 to-blue-600",
+      "color": "#F59E0B",
+      "gradient": "from-amber-500 to-orange-600",
       "icon": "Heart",
-      "description": "Interactive culture modules, values quizzes, team stories, and social connection prompts that immerse new hires in company culture.",
+      "description": "Diversity, equity, and inclusion baked into every onboarding interaction — from inclusive language checks to bias-aware buddy matching and ERG introductions.",
       "hero": {
-        "headline": "Culture Isn't a Handbook — It's an Experience",
-        "subheadline": "From interactive values quizzes to coffee chat roulette, make your company culture come alive for every new team member.",
-        "cta": "Explore Culture",
+        "headline": "Inclusion Isn't a Module — It's the Foundation",
+        "subheadline": "From inclusive language analysis to bias-aware buddy matching, DEI is embedded in every step of the onboarding journey. Because belonging starts on day zero.",
+        "cta": "Explore DEI Onboarding",
         "ctaLink": "#features",
-        "image": "/images/culture-hero.svg"
+        "image": "/images/dei-hero.svg"
       },
       "sections": [
         {
@@ -401,24 +402,34 @@
           "columns": 2,
           "items": [
             {
-              "title": "Interactive Culture Modules",
-              "description": "Bite-sized, engaging modules that teach company history, values, and mission — not a 50-page PDF nobody reads.",
-              "icon": "BookOpen"
+              "title": "Inclusive Language Analysis",
+              "description": "AI scans all onboarding content — job descriptions, welcome emails, training docs — for biased or exclusionary language. Suggests inclusive alternatives.",
+              "icon": "Search"
             },
             {
-              "title": "Values Quizzes",
-              "description": "Fun, low-stakes quizzes that reinforce company values through real scenarios and team stories.",
-              "icon": "Award"
+              "title": "Bias-Aware Buddy Matching",
+              "description": "Buddy matching algorithm avoids demographic clustering. Considers diverse perspectives, shared interests, and complementary skills for richer connections.",
+              "icon": "UserCheck"
             },
             {
-              "title": "Team Stories & Spotlights",
-              "description": "Video and written spotlights featuring team members sharing their favorite projects, traditions, and advice.",
-              "icon": "Video"
+              "title": "Accessibility-First Design",
+              "description": "All onboarding interfaces meet WCAG 2.2 AA standards. Screen-reader compatible, keyboard-navigable, with contrast and text-sizing controls.",
+              "icon": "Eye"
             },
             {
-              "title": "Social Connection Prompts",
-              "description": "AI-suggested conversation starters and team activities based on shared interests and complementary skills.",
-              "icon": "MessageCircle"
+              "title": "ERG Introduction Engine",
+              "description": "Based on self-identification, new hires are introduced to relevant Employee Resource Groups with a personalized welcome from ERG leads.",
+              "icon": "Users"
+            },
+            {
+              "title": "Pronoun & Name Respect",
+              "description": "Pronoun collection with respect-first defaults. Phonetic name pronunciation capture. Auto-populated across all onboarding materials.",
+              "icon": "MessageSquare"
+            },
+            {
+              "title": "Belonging Micro-Surveys",
+              "description": "2-question pulse surveys at Day 1, 7, and 30 measuring psychological safety and belonging. Anonymous by default with trend dashboards.",
+              "icon": "ClipboardList"
             }
           ]
         },
@@ -426,31 +437,31 @@
           "type": "stats",
           "title": "Impact at a Glance",
           "items": [
-            { "value": "12", "label": "Interactive culture modules" },
-            { "value": "85%", "label": "Module completion rate" },
-            { "value": "4.8/5", "label": "New-hire satisfaction score" },
-            { "value": "100%", "label": "Values alignment visibility" }
+            { "value": "50%+", "label": "Higher retention for underrepresented groups" },
+            { "value": "WCAG 2.2", "label": "AA accessibility compliance" },
+            { "value": "0", "label": "Exclusionary language in onboarding" },
+            { "value": "4.9/5", "label": "New-hire belonging score" }
           ]
         }
       ]
     },
     {
-      "id": "manager-dashboard",
-      "slug": "manager-dashboard",
-      "name": "Manager Dashboard & Alerts",
-      "shortName": "Manager View",
+      "id": "manager-command-center",
+      "slug": "manager-command-center",
+      "name": "Manager Command Center",
+      "shortName": "Command Center",
       "priority": "P1",
       "status": "planned",
       "color": "#14B8A6",
       "gradient": "from-teal-500 to-cyan-600",
       "icon": "LayoutDashboard",
-      "description": "Manager view of all direct report onboarding progress. Smart alerts flag stalled journeys and at-risk new hires before it's too late.",
+      "description": "Not just a dashboard — a command center. See onboarding progress, receive AI-powered alerts, and take action directly: reassign tasks, schedule check-ins, or escalate concerns.",
       "hero": {
-        "headline": "Know Exactly How Your People Are Doing",
-        "subheadline": "One dashboard. All your direct reports. Real-time progress bars, sentiment scores, and smart alerts that tell you who needs help.",
-        "cta": "See the Dashboard",
+        "headline": "Don't Just Watch — Act",
+        "subheadline": "Real-time progress for every direct report. AI flags at-risk new hires. One-click interventions. Because managers shouldn't need five tools to onboard one person.",
+        "cta": "See the Command Center",
         "ctaLink": "#features",
-        "image": "/images/manager-hero.svg"
+        "image": "/images/command-hero.svg"
       },
       "sections": [
         {
@@ -459,33 +470,33 @@
           "columns": 3,
           "items": [
             {
-              "title": "Unified Progress View",
-              "description": "See every direct report's onboarding progress in one view — checklist completion, document status, training progress.",
+              "title": "Unified Progress Command",
+              "description": "Single view of every direct report's onboarding — checklist completion, skill acquisition, document status, and wellness pulse in one screen.",
               "icon": "Eye"
             },
             {
-              "title": "Risk Flagging",
-              "description": "AI analyzes engagement patterns and flags new hires who may be struggling — before they disengage or leave.",
+              "title": "AI Risk Detection",
+              "description": "ML models analyze engagement patterns, survey responses, and task velocity to flag new hires at risk of disengagement or early departure.",
               "icon": "Flag"
             },
             {
-              "title": "Smart Alerts",
-              "description": "Configurable alerts for stalled journeys, missed deadlines, and low sentiment scores. Push, email, or Slack notifications.",
-              "icon": "Bell"
-            },
-            {
-              "title": "Intervention Suggestions",
-              "description": "When a new hire is flagged, the AI suggests concrete actions — schedule a check-in, assign a buddy, adjust the plan.",
+              "title": "One-Click Interventions",
+              "description": "When risk is flagged, AI suggests concrete actions — schedule a check-in, reassign a buddy, adjust workload — with one-click execution.",
               "icon": "Lightbulb"
             },
             {
-              "title": "Weekly Digest Reports",
-              "description": "Automated weekly summary of team onboarding status — who's on track, who needs attention, and key milestones reached.",
+              "title": "Multi-Channel Alerts",
+              "description": "Smart alerts for stalled journeys, missed milestones, and low wellness scores. Delivered via Slack, Teams, email, or push notification.",
+              "icon": "Bell"
+            },
+            {
+              "title": "Weekly Intelligence Reports",
+              "description": "AI-generated weekly summaries with trend analysis, key milestones achieved, and recommended focus areas for the coming week.",
               "icon": "FileText"
             },
             {
-              "title": "Sentiment Trends",
-              "description": "Track new-hire sentiment over time from pulse surveys. Spot downward trends and act before they become problems.",
+              "title": "Wellness Signal Integration",
+              "description": "Correlates onboarding progress with wellness and belonging signals. Identifies when slow progress is a symptom of deeper issues.",
               "icon": "TrendingUp"
             }
           ]
@@ -497,28 +508,28 @@
             { "value": "100%", "label": "Onboarding visibility for managers" },
             { "value": "48h", "label": "Average response time to risk flags" },
             { "value": "70%", "label": "Reduction in early turnover" },
-            { "value": "1", "label": "Dashboard for everything" }
+            { "value": "1", "label": "Unified command center for everything" }
           ]
         }
       ]
     },
     {
-      "id": "feedback-pulse",
-      "slug": "feedback-pulse",
-      "name": "Feedback & Pulse Checks",
-      "shortName": "Pulse",
+      "id": "wellness-belonging-pulse",
+      "slug": "wellness-belonging-pulse",
+      "name": "Wellness & Belonging Pulse",
+      "shortName": "Wellness Pulse",
       "priority": "P1",
       "status": "planned",
       "color": "#F97316",
       "gradient": "from-orange-500 to-red-600",
       "icon": "Activity",
-      "description": "Micro-surveys at day 7, 30, 60, and 90. Sentiment tracking with AI-powered theme detection and actionable insights.",
+      "description": "ISO 45003-aligned psychological safety and belonging checks at Day 7, 30, 60, and 90. AI detects burnout signals and recommends interventions before they escalate.",
       "hero": {
-        "headline": "Listen Before It's Too Late",
-        "subheadline": "Micro-surveys at key milestones capture how new hires really feel. AI surfaces themes and trends so you can act fast.",
-        "cta": "Explore Pulse",
+        "headline": "Psychological Safety Starts on Day One",
+        "subheadline": "Burnout doesn't start at month six — it starts when onboarding fails. Micro-checks for psychological safety, belonging, and wellbeing at every milestone.",
+        "cta": "Explore Wellness Pulse",
         "ctaLink": "#features",
-        "image": "/images/pulse-hero.svg"
+        "image": "/images/wellness-hero.svg"
       },
       "sections": [
         {
@@ -527,24 +538,24 @@
           "columns": 2,
           "items": [
             {
-              "title": "Scheduled Micro-Surveys",
-              "description": "Auto-delivered surveys at Day 7, 30, 60, and 90. Short, focused, and mobile-friendly — takes 2 minutes to complete.",
-              "icon": "ClipboardList"
+              "title": "Psychological Safety Checks",
+              "description": "ISO 45003-aligned micro-surveys measuring psychological safety, role clarity, and team belonging. Anonymous by default to encourage honesty.",
+              "icon": "Heart"
             },
             {
-              "title": "Sentiment Analysis",
-              "description": "AI analyzes open-ended responses for sentiment, themes, and concerns. Quantifies the qualitative for trend detection.",
-              "icon": "BrainCircuit"
+              "title": "Burnout Signal Detection",
+              "description": "AI analyzes response patterns, task completion velocity, and engagement signals to detect early burnout indicators. Alerts managers before crisis hits.",
+              "icon": "Activity"
             },
             {
-              "title": "Theme Detection",
-              "description": "Automatically groups feedback into themes — culture fit, role clarity, tool frustration, team dynamics — with trend lines.",
-              "icon": "Tags"
+              "title": "Belonging Trend Analysis",
+              "description": "Track how belonging scores evolve from Day 1 through Day 90. Demographic-aware trend lines to identify systemic inclusion gaps.",
+              "icon": "TrendingUp"
             },
             {
-              "title": "Actionable Insights",
-              "description": "Surfaces concrete, prioritized recommendations based on feedback patterns — not just raw data, but what to do about it.",
-              "icon": "Zap"
+              "title": "Intervention Recommendations",
+              "description": "When wellness signals decline, AI recommends personalized interventions — team check-in, workload adjustment, buddy re-match, or manager coaching.",
+              "icon": "Lightbulb"
             }
           ]
         },
@@ -553,9 +564,67 @@
           "title": "Impact at a Glance",
           "items": [
             { "value": "92%", "label": "Survey completion rate" },
-            { "value": "<2min", "label": "Time to complete a pulse survey" },
-            { "value": "4", "label": "Touchpoints in first 90 days" },
-            { "value": "100%", "label": "Feedback loop closure" }
+            { "value": "<2min", "label": "Time to complete a pulse check" },
+            { "value": "ISO 45003", "label": "Psychological safety standard aligned" },
+            { "value": "60%", "label": "Faster burnout intervention" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hybrid-first-experience",
+      "slug": "hybrid-first-experience",
+      "name": "Hybrid-First Experience",
+      "shortName": "Hybrid-First",
+      "priority": "P2",
+      "status": "future",
+      "color": "#6366F1",
+      "gradient": "from-indigo-500 to-blue-600",
+      "icon": "Monitor",
+      "description": "Onboarding designed for distributed teams from the ground up. Async-first workflows, virtual social events, and digital culture immersion — no second-class remote experience.",
+      "hero": {
+        "headline": "Distributed Teams Deserve Great Onboarding Too",
+        "subheadline": "Async-first onboarding workflows, virtual coffee roulette, digital office tours, and culture cards that work whether you're in-office or 10 time zones away.",
+        "cta": "Explore Hybrid-First",
+        "ctaLink": "#features",
+        "image": "/images/hybrid-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Async-First Workflows",
+              "description": "Every onboarding task, document, and training module works async by default. Live sessions are optional, recorded, and transcribed for later viewing.",
+              "icon": "Clock"
+            },
+            {
+              "title": "Virtual Social Experiences",
+              "description": "AI-powered coffee chat roulette, virtual team trivia, and digital office tours. Build real connections without being in the same room.",
+              "icon": "Coffee"
+            },
+            {
+              "title": "Digital Culture Immersion",
+              "description": "Interactive modules on company history, values, and traditions — designed for solo exploration with social sharing features.",
+              "icon": "BookOpen"
+            },
+            {
+              "title": "Time-Zone-Aware Scheduling",
+              "description": "All meetings, deadlines, and reminders adapt to the new hire's time zone. No more 5am onboarding calls.",
+              "icon": "Globe"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "100%", "label": "Async-compatible onboarding" },
+            { "value": "24", "label": "Time zones supported natively" },
+            { "value": "85%", "label": "Remote new-hire satisfaction" },
+            { "value": "0", "label": "Second-class remote experiences" }
           ]
         }
       ]
@@ -570,11 +639,11 @@
       "color": "#A855F7",
       "gradient": "from-purple-500 to-fuchsia-600",
       "icon": "GraduationCap",
-      "description": "Curate and generate personalized learning content for each role using AI. Auto-enroll in relevant courses from DClaw Learn.",
+      "description": "Skills-gap-driven curriculum generation. AI maps new hire competencies against role requirements and auto-enrolls them in DClaw Learn courses to close gaps.",
       "hero": {
-        "headline": "Every Role Deserves a Custom Curriculum",
-        "subheadline": "AI analyzes the role, seniority, and skill gaps to generate a personalized learning path — with auto-enrollment in DClaw Learn courses.",
-        "cta": "Explore Learning",
+        "headline": "Close Skill Gaps Before They Become Problems",
+        "subheadline": "AI analyzes the gap between what a new hire knows and what their role demands. Generates a personalized curriculum and auto-enrolls them in the right courses.",
+        "cta": "Explore Learning Paths",
         "ctaLink": "#features",
         "image": "/images/learning-hero.svg"
       },
@@ -585,92 +654,44 @@
           "columns": 2,
           "items": [
             {
-              "title": "Role-Based Curriculum",
-              "description": "AI maps required skills for each role to available training content, creating a structured learning journey from day one.",
-              "icon": "BookOpen"
-            },
-            {
-              "title": "Gap Analysis",
-              "description": "Identifies skill gaps based on role requirements and new hire background. Prioritizes what to learn first.",
+              "title": "Skills-Gap-Driven Curriculum",
+              "description": "AI compares new hire competencies against role requirements and generates a personalized learning path prioritized by impact.",
               "icon": "Search"
             },
             {
-              "title": "Auto-Enrollment",
-              "description": "Automatically enrolls new hires in DClaw Learn courses. Tracks completion and sends smart reminders.",
+              "title": "Auto-Enrollment Engine",
+              "description": "Automatically enrolls new hires in DClaw Learn courses. Tracks completion, sends smart reminders, and adapts pace based on progress.",
               "icon": "UserPlus"
             },
             {
-              "title": "Progress Tracking",
-              "description": "Visual progress tracking for each learning path. Managers can see which courses are completed and which are pending.",
+              "title": "Competency Progress Visualization",
+              "description": "Visual dashboards showing skill acquisition over time. Managers see which competencies are growing and which need reinforcement.",
               "icon": "BarChart3"
+            },
+            {
+              "title": "Just-in-Time Micro-Learning",
+              "description": "Bite-sized learning modules delivered at the moment of need — not a 40-hour course dumped on day one.",
+              "icon": "Zap"
             }
           ]
         }
       ]
     },
     {
-      "id": "gamification",
-      "slug": "gamification",
-      "name": "Gamification & Achievements",
-      "shortName": "Gamification",
-      "priority": "P2",
-      "status": "future",
-      "color": "#22C55E",
-      "gradient": "from-green-500 to-emerald-600",
-      "icon": "Trophy",
-      "description": "Make onboarding fun with badges, progress celebrations, team leaderboards, and achievement unlocks.",
-      "hero": {
-        "headline": "Onboarding Should Be Celebrated, Not Dreaded",
-        "subheadline": "Turn onboarding milestones into moments of celebration. Badges, leaderboards, and team shoutouts keep new hires engaged and motivated.",
-        "cta": "Explore Gamification",
-        "ctaLink": "#features",
-        "image": "/images/gamification-hero.svg"
-      },
-      "sections": [
-        {
-          "type": "features",
-          "title": "Key Capabilities",
-          "columns": 2,
-          "items": [
-            {
-              "title": "Achievement Badges",
-              "description": "Earn badges for completing milestones — First Week Done, Document Pro, Culture Champion, Social Butterfly, and more.",
-              "icon": "Medal"
-            },
-            {
-              "title": "Progress Celebrations",
-              "description": "Confetti animations and congratulatory messages when new hires hit key milestones. Shareable to team channels.",
-              "icon": "PartyPopper"
-            },
-            {
-              "title": "Team Leaderboards",
-              "description": "Friendly competition with team-based leaderboards for onboarding completion. Drives engagement through positive peer pressure.",
-              "icon": "Trophy"
-            },
-            {
-              "title": "Milestone Unlocks",
-              "description": "Unlock new features, resources, or perks as onboarding progresses. Creates a sense of progression and discovery.",
-              "icon": "Unlock"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pre-boarding",
-      "slug": "pre-boarding",
-      "name": "Pre-Boarding",
-      "shortName": "Pre-Boarding",
+      "id": "pre-day-1-engagement",
+      "slug": "pre-day-1-engagement",
+      "name": "Pre-Day-1 Engagement",
+      "shortName": "Pre-Day-1",
       "priority": "P2",
       "status": "future",
       "color": "#0EA5E9",
       "gradient": "from-sky-500 to-blue-600",
       "icon": "Rocket",
-      "description": "Engage candidates between offer acceptance and Day 1. Reduce ghosting with pre-start content, team teasers, and first-day prep.",
+      "description": "Mobile-first candidate engagement between offer acceptance and Day 1. Async content delivery, team teasers, and first-day prep to reduce ghosting by 50%.",
       "hero": {
-        "headline": "The Gap Between 'Yes' and Day 1 Is Critical",
-        "subheadline": "Keep new hires warm between offer acceptance and their start date. Pre-boarding engagement reduces ghosting by up to 50%.",
-        "cta": "Explore Pre-Boarding",
+        "headline": "The Gap Between 'Yes' and Day 1 Is Everything",
+        "subheadline": "Keep new hires warm with mobile-first content, team introductions, and first-day prep. Modern pre-boarding that cuts ghosting rates in half.",
+        "cta": "Explore Pre-Day-1",
         "ctaLink": "#features",
         "image": "/images/preboard-hero.svg"
       },
@@ -681,24 +702,34 @@
           "columns": 2,
           "items": [
             {
-              "title": "Pre-Start Engagement",
-              "description": "Share company swag, team photos, and welcome messages the moment an offer is accepted. Build excitement before day one.",
-              "icon": "Gift"
+              "title": "Mobile-First Experience",
+              "description": "All pre-start content optimized for mobile. New hires engage on their phone — no laptop required. Push notifications for key updates.",
+              "icon": "Smartphone"
             },
             {
-              "title": "First-Day Prep",
-              "description": "Send logistics info — where to go, what to bring, dress code, parking — so new hires feel prepared and confident.",
+              "title": "Async Content Drip",
+              "description": "Scheduled content delivery — welcome message on Day 0, team intro on Day -7, first-day prep on Day -1. Keeps excitement building.",
+              "icon": "Send"
+            },
+            {
+              "title": "Team Teaser Cards",
+              "description": "Digital cards with photos, fun facts, and welcome messages from future teammates. Builds familiarity and reduces first-day anxiety.",
+              "icon": "IdCard"
+            },
+            {
+              "title": "Ghosting Prevention AI",
+              "description": "Engagement tracking with smart re-engagement. AI detects when a candidate is going cold and triggers personalized outreach automatically.",
+              "icon": "Bell"
+            },
+            {
+              "title": "First-Day Logistics Hub",
+              "description": "Everything a new hire needs to know — where to go, what to bring, dress code, parking, WiFi password — in one mobile-friendly page.",
               "icon": "MapPin"
             },
             {
-              "title": "Team Teasers",
-              "description": "Share fun profiles of team members they'll work with. Build familiarity and reduce first-day anxiety.",
-              "icon": "UserCheck"
-            },
-            {
-              "title": "Ghosting Prevention",
-              "description": "Engagement tracking and smart re-engagement campaigns. AI detects disengagement patterns and triggers personalized outreach.",
-              "icon": "Ghost"
+              "title": "Swag & Excitement Builder",
+              "description": "Digital unboxing experiences, company swag selection, and welcome video from the CEO. Turn anticipation into excitement.",
+              "icon": "Gift"
             }
           ]
         },
@@ -707,57 +738,77 @@
           "title": "Impact at a Glance",
           "items": [
             { "value": "50%", "label": "Reduction in candidate ghosting" },
-            { "value": "2 weeks", "label": "Average pre-boarding engagement window" },
-            { "value": "95%", "label": "Pre-boarding content engagement rate" },
-            { "value": "100%", "label": "Day-one confidence score" }
+            { "value": "95%", "label": "Pre-start content engagement" },
+            { "value": "2 weeks", "label": "Average engagement window" },
+            { "value": "4.8/5", "label": "Day-one readiness score" }
           ]
         }
       ]
     },
     {
-      "id": "offboarding-companion",
-      "slug": "offboarding-companion",
-      "name": "Offboarding Companion",
-      "shortName": "Offboarding",
+      "id": "stakeholder-introductions",
+      "slug": "stakeholder-introductions",
+      "name": "Stakeholder Introductions",
+      "shortName": "Intros",
       "priority": "P2",
-      "status": "future",
-      "color": "#64748B",
-      "gradient": "from-slate-500 to-gray-600",
-      "icon": "LogOut",
-      "description": "Smooth handoff to offboarding module for departing employees. Knowledge transfer, exit surveys, and alumni network integration.",
+      "status": "demo-ready",
+      "color": "#22C55E",
+      "gradient": "from-green-500 to-emerald-600",
+      "icon": "Users",
+      "description": "Auto-schedule 1:1s with key stakeholders. AI-generated intro briefs for every meeting. DEI-aware matching that prioritizes diverse perspectives from day one.",
       "hero": {
-        "headline": "Great Goodbyes Lead to Great Alumni",
-        "subheadline": "Handle departures with the same care as arrivals. Structured offboarding preserves knowledge, gathers feedback, and builds your alumni network.",
-        "cta": "Explore Offboarding",
+        "headline": "First Conversations Shouldn't Be Awkward",
+        "subheadline": "Auto-scheduled 1:1s with AI-generated intro briefs. New hires walk into every meeting knowing who they're talking to, why they matter, and what to ask.",
+        "cta": "See How It Works",
         "ctaLink": "#features",
-        "image": "/images/offboard-hero.svg"
+        "image": "/images/intros-hero.svg"
       },
       "sections": [
         {
           "type": "features",
           "title": "Key Capabilities",
-          "columns": 2,
+          "columns": 3,
           "items": [
             {
-              "title": "Knowledge Transfer",
-              "description": "Structured workflows to capture and document critical knowledge before departure. Auto-assigns KT sessions with team members.",
-              "icon": "BookOpen"
+              "title": "DEI-Aware Matching",
+              "description": "Introductions algorithm ensures new hires meet diverse perspectives — not just people who look like them or share their background.",
+              "icon": "UserCheck"
             },
             {
-              "title": "Exit Surveys",
-              "description": "Comprehensive exit surveys with AI-powered theme analysis. Understand why people leave and what to improve.",
-              "icon": "FileText"
+              "title": "AI-Generated Intro Briefs",
+              "description": "For each meeting: who they're meeting, their background, what they do, suggested talking points, and shared interests.",
+              "icon": "FileEdit"
             },
             {
-              "title": "Access Revocation",
-              "description": "Automated access revocation across all systems. One-click deprovisioning that leaves no loose ends.",
-              "icon": "ShieldOff"
+              "title": "Async-First Scheduling",
+              "description": "Meetings auto-schedule respecting both parties' time zones and calendar availability. No back-and-forth DMs.",
+              "icon": "CalendarCheck"
             },
             {
-              "title": "Alumni Network",
-              "description": "Keep departed employees in your orbit. Alumni portal with networking, job board, and company updates.",
-              "icon": "Network"
+              "title": "Org Chart Intelligence",
+              "description": "Automatically maps reporting chain, skip-level, and key collaborators. Prioritizes introductions by organizational impact.",
+              "icon": "GitGraph"
+            },
+            {
+              "title": "Meeting Context Cards",
+              "description": "Mobile-friendly cards with photo, bio, fun facts, and discussion topics. Reviewable in 60 seconds before walking into any meeting.",
+              "icon": "IdCard"
+            },
+            {
+              "title": "Introduction Analytics",
+              "description": "Track which introductions happened, which were rescheduled, and how new hires rate their first conversations.",
+              "icon": "BarChart3"
             }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "10+", "label": "Key introductions in first week" },
+            { "value": "100%", "label": "AI-generated briefs for every meeting" },
+            { "value": "60%", "label": "Faster relationship building" },
+            { "value": "0", "label": "Awkward first conversations" }
           ]
         }
       ]

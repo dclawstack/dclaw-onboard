@@ -58,6 +58,9 @@ import {
   LogOut,
   ShieldOff,
   Network,
+  Globe,
+  FileCheck,
+  Smartphone,
   type LucideIcon,
 } from "lucide-react";
 
@@ -121,6 +124,10 @@ const iconMap: Record<string, LucideIcon> = {
   LogOut,
   ShieldOff,
   Network,
+  Globe,
+  FileCheck,
+  Smartphone,
+  IdCard: Contact,
 };
 
 export function getIcon(name: string): LucideIcon {
