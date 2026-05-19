@@ -1,7 +1,7 @@
-# DClaw Scaffold
+# DClaw Onboard
 
-> **The single source of truth for new DClaw app development.**
-> Clone this repo, rename it, fill in your `PRODUCT-SPEC.md`, and hand it to your coding agents.
+> **AI-powered employee onboarding platform.**
+> Automated journeys, document collection, stakeholder introductions, and an AI copilot that guides every new hire.
 
 ## What This Is
 
@@ -50,22 +50,32 @@ This file is required for GitHub Actions to run tests on every push.
 ### DO NOT upgrade pytest-asyncio
 Keep `pytest-asyncio==0.24.0` pinned in `requirements.txt`. v1.3.0 breaks fixture scoping.
 
-## Port Registry
+## Contributors
 
-| App | Backend Port | Frontend Port | Database |
-|-----|-------------|---------------|----------|
-| dclaw-chat | 8090 | 3000 | dclaw_chat |
-| dclaw-med | 8092 | 3004 | dclaw_med |
-| dclaw-learn | 8093 | 3003 | dclaw_learn |
-| dclaw-code | 8094 | 3005 | dclaw_code |
-| dclaw-legal | 8099 | 3013 | dclaw_legal |
-| dclaw-crm | 8095 | 3006 | dclaw_crm |
-| dclaw-finance | 8096 | 3007 | dclaw_finance |
-| dclaw-hr | 8097 | 3008 | dclaw_hr |
-| **TBD #9** | **8098** | **3009** | **dclaw_xxx** |
-| **TBD #10** | **8100** | **3010** | **dclaw_xxx** |
+- **ramsai** (kamavaram.ramsai@gmail.com) — Feature landing pages, JSON-driven frontend architecture, PLAN-v1.2 implementation
 
-> **Rule:** New apps take the next available port. Update this table when assigning.
+---
+
+## Feature Landing Pages (PLAN-v1.2)
+
+All 12 features from [PLAN-v1.2.md](./PLAN-v1.2.md) have dedicated, JSON-driven landing pages:
+
+| # | Priority | Feature | Route |
+|---|----------|---------|-------|
+| 1 | P0 | AI Onboarding Copilot | `/features/ai-onboarding-copilot` |
+| 2 | P0 | Journey Builder & Checklists | `/features/journey-builder` |
+| 3 | P0 | Document Collection & E-Sign | `/features/document-collection` |
+| 4 | P0 | Stakeholder Introductions | `/features/stakeholder-introductions` |
+| 5 | P1 | Equipment & Access Provisioning | `/features/equipment-provisioning` |
+| 6 | P1 | Culture & Values Integration | `/features/culture-values` |
+| 7 | P1 | Manager Dashboard & Alerts | `/features/manager-dashboard` |
+| 8 | P1 | Feedback & Pulse Checks | `/features/feedback-pulse` |
+| 9 | P2 | AI-Generated Learning Paths | `/features/ai-learning-paths` |
+| 10 | P2 | Gamification & Achievements | `/features/gamification` |
+| 11 | P2 | Pre-Boarding | `/features/pre-boarding` |
+| 12 | P2 | Offboarding Companion | `/features/offboarding-companion` |
+
+All content is stored in `frontend/src/data/features.json` and rendered by reusable components in `frontend/src/components/landing/`.
 
 ## Files You Must Customize
 

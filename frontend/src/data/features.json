@@ -1,0 +1,766 @@
+{
+  "app": {
+    "name": "DClaw Onboard",
+    "tagline": "Automated employee onboarding — powered by AI",
+    "description": "A complete onboarding suite that transforms how companies welcome new hires. From AI-guided journeys to automated document collection, DClaw Onboard covers every step of the employee's first 90 days.",
+    "color": "#3B82F6",
+    "category": "HR"
+  },
+  "features": [
+    {
+      "id": "ai-onboarding-copilot",
+      "slug": "ai-onboarding-copilot",
+      "name": "AI Onboarding Copilot",
+      "shortName": "Buddy Bot",
+      "priority": "P0",
+      "status": "demo-ready",
+      "color": "#3B82F6",
+      "gradient": "from-blue-500 to-indigo-600",
+      "icon": "Bot",
+      "description": "AI-powered virtual buddy that guides new hires through their first 30/60/90 days. Answers questions, reminds of tasks, and surfaces resources proactively.",
+      "hero": {
+        "headline": "Never Let a New Hire Feel Lost Again",
+        "subheadline": "Buddy Bot provides 24/7 AI-powered guidance — answering questions, sending nudges, and generating personalized onboarding plans in under 2 minutes.",
+        "cta": "Meet Buddy Bot",
+        "ctaLink": "#demo",
+        "image": "/images/copilot-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 3,
+          "items": [
+            {
+              "title": "RAG-Powered Q&A",
+              "description": "Answers new-hire questions by searching company wiki, policies, and onboarding docs in real time. No more digging through shared drives.",
+              "icon": "Search"
+            },
+            {
+              "title": "Proactive Nudges",
+              "description": "Sends timely reminders for pending tasks, upcoming 1:1s, and training deadlines. Keeps new hires on track without manager intervention.",
+              "icon": "Bell"
+            },
+            {
+              "title": "Personalized 30/60/90 Plans",
+              "description": "Generates role-specific onboarding plans with milestones, learning resources, and check-in points — all tailored by seniority and department.",
+              "icon": "Calendar"
+            },
+            {
+              "title": "Multi-Channel Access",
+              "description": "Available as a floating chat widget on every page plus daily digest cards in the new-hire portal. Always one click away.",
+              "icon": "MessageSquare"
+            },
+            {
+              "title": "Sentiment-Aware Responses",
+              "description": "Detects confusion or frustration in new-hire messages and escalates to a human buddy or manager when needed.",
+              "icon": "Heart"
+            },
+            {
+              "title": "Local-First AI",
+              "description": "Falls back to local Ollama models when cloud AI is unavailable. Zero downtime, always responsive.",
+              "icon": "Shield"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "82%", "label": "Retention improvement with great onboarding" },
+            { "value": "<2min", "label": "Time to generate a 30-day plan" },
+            { "value": "24/7", "label": "AI availability for new-hire questions" },
+            { "value": "50+", "label": "Checklist templates pre-loaded" }
+          ]
+        },
+        {
+          "type": "tech",
+          "title": "Technical Highlights",
+          "items": [
+            { "label": "Backend Endpoint", "value": "/api/v1/ai/onboard-chat" },
+            { "label": "AI Stack", "value": "RAG + OpenRouter Kimi K2.5 + Ollama fallback" },
+            { "label": "Reminder Engine", "value": "Scheduled background tasks with Temporal.io" },
+            { "label": "Frontend", "value": "Floating chat widget + digest cards" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "journey-builder",
+      "slug": "journey-builder",
+      "name": "Journey Builder & Checklists",
+      "shortName": "Journey Builder",
+      "priority": "P0",
+      "status": "demo-ready",
+      "color": "#8B5CF6",
+      "gradient": "from-purple-500 to-violet-600",
+      "icon": "Route",
+      "description": "Visual builder for onboarding journeys with tasks, deadlines, dependencies, and role-based paths. Drag-and-drop interface with real-time progress tracking.",
+      "hero": {
+        "headline": "Design Onboarding Journeys That Work",
+        "subheadline": "Build role-specific onboarding paths with visual drag-and-drop tools. Set deadlines, define dependencies, and watch new hires progress in real time.",
+        "cta": "Build a Journey",
+        "ctaLink": "#builder",
+        "image": "/images/journey-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Visual Drag-and-Drop Builder",
+              "description": "Create onboarding journeys by dragging task cards onto a timeline. Reorder, group, and connect tasks with dependency arrows.",
+              "icon": "GripHorizontal"
+            },
+            {
+              "title": "Role-Based Templates",
+              "description": "Start from 50+ pre-built templates for roles like Engineering, Sales, Marketing, and Executive. Customize or build from scratch.",
+              "icon": "Layers"
+            },
+            {
+              "title": "Task Dependencies",
+              "description": "Define logical dependencies between tasks. Complete IT setup before tool training. Finish compliance before system access.",
+              "icon": "GitBranch"
+            },
+            {
+              "title": "Progress Tracking",
+              "description": "Real-time progress bars for each new hire. See at a glance who's ahead, on track, or falling behind.",
+              "icon": "BarChart3"
+            },
+            {
+              "title": "Auto-Assign Owners",
+              "description": "Each task auto-assigns to the right person — manager, buddy, IT, or the new hire themselves.",
+              "icon": "UserCheck"
+            },
+            {
+              "title": "Deadline Automation",
+              "description": "Set relative deadlines (Day 1, Day 7, Day 30) that auto-calculate from the new hire's start date.",
+              "icon": "Clock"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "50+", "label": "Pre-built journey templates" },
+            { "value": "100%", "label": "Task completion visibility" },
+            { "value": "5min", "label": "Average time to customize a journey" },
+            { "value": "0", "label": "Missed compliance deadlines" }
+          ]
+        },
+        {
+          "type": "tech",
+          "title": "Technical Highlights",
+          "items": [
+            { "label": "Backend Engine", "value": "Journey template engine with task dependency graph" },
+            { "label": "API Endpoint", "value": "/api/v1/journeys" },
+            { "label": "Frontend", "value": "Drag-and-drop canvas + progress tracker" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "document-collection",
+      "slug": "document-collection",
+      "name": "Document Collection & E-Sign",
+      "shortName": "Doc Collection",
+      "priority": "P0",
+      "status": "demo-ready",
+      "color": "#10B981",
+      "gradient": "from-emerald-500 to-teal-600",
+      "icon": "FileText",
+      "description": "Auto-request documents (ID, tax forms, contracts). Track completion with visual checklist. Built-in e-signature integration for policy acknowledgments.",
+      "hero": {
+        "headline": "Collect Documents Without the Chase",
+        "subheadline": "Automate the entire document collection workflow — from request to verification. Support 10+ document types with built-in e-signature and compliance validation.",
+        "cta": "Explore Doc Collection",
+        "ctaLink": "#features",
+        "image": "/images/docs-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Auto-Request Workflow",
+              "description": "Automatically request I-9, W-4, direct deposit, and policy acknowledgments based on role and location. No manual follow-ups.",
+              "icon": "Send"
+            },
+            {
+              "title": "Visual Document Checklist",
+              "description": "New hires see a clear checklist with status indicators. Upload widgets for each document type with drag-and-drop support.",
+              "icon": "ClipboardCheck"
+            },
+            {
+              "title": "E-Signature Integration",
+              "description": "Built-in electronic signature for offer letters, NDAs, and policy acknowledgments. Legally binding and audit-trailed.",
+              "icon": "PenTool"
+            },
+            {
+              "title": "AI Document Validation",
+              "description": "Automatically checks uploaded documents for completeness, legibility, and expiration dates. Flags issues before HR review.",
+              "icon": "Sparkles"
+            },
+            {
+              "title": "Compliance Tracking",
+              "description": "Track I-9 verification status, tax form completion, and policy sign-offs. Audit-ready reports at your fingertips.",
+              "icon": "ShieldCheck"
+            },
+            {
+              "title": "Reminder Automation",
+              "description": "Gentle, escalating reminders for overdue documents. Escalates to manager after 3 nudges with no response.",
+              "icon": "BellRing"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "10+", "label": "Document types supported" },
+            { "value": "90%", "label": "Reduction in manual follow-ups" },
+            { "value": "48h", "label": "Average time to full document completion" },
+            { "value": "100%", "label": "Compliance audit readiness" }
+          ]
+        },
+        {
+          "type": "tech",
+          "title": "Technical Highlights",
+          "items": [
+            { "label": "Backend", "value": "Document request workflow + file storage (MinIO)" },
+            { "label": "API Endpoint", "value": "/api/v1/documents" },
+            { "label": "E-Sign", "value": "Webhook-based e-signature integration" },
+            { "label": "Storage", "value": "MinIO object storage with encryption at rest" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stakeholder-introductions",
+      "slug": "stakeholder-introductions",
+      "name": "Stakeholder Introductions",
+      "shortName": "Intros",
+      "priority": "P0",
+      "status": "demo-ready",
+      "color": "#F59E0B",
+      "gradient": "from-amber-500 to-orange-600",
+      "icon": "Users",
+      "description": "Auto-schedule 1:1s with key team members. Generate AI-powered intro briefs for each meeting so new hires walk in prepared and connected.",
+      "hero": {
+        "headline": "First Impressions Are Everything",
+        "subheadline": "Auto-schedule coffee chats and 1:1s with the people who matter. Each meeting comes with an AI-generated intro brief — Meet Sarah, your design lead. She joined in 2019...",
+        "cta": "See How It Works",
+        "ctaLink": "#features",
+        "image": "/images/intros-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Auto-Schedule 1:1s",
+              "description": "Intelligently schedules introductions with managers, buddies, team leads, and key cross-functional partners based on the new hire's role.",
+              "icon": "CalendarCheck"
+            },
+            {
+              "title": "AI-Generated Intro Briefs",
+              "description": "For each meeting, Buddy Bot generates a brief: who they're meeting, their background, what they do, and suggested talking points.",
+              "icon": "FileEdit"
+            },
+            {
+              "title": "Org Chart Integration",
+              "description": "Automatically maps the new hire's reporting chain, skip-level, and key collaborators. No org-chart archaeology required.",
+              "icon": "GitGraph"
+            },
+            {
+              "title": "Meeting Context Cards",
+              "description": "Digital cards for each introduction with photo, bio, fun facts, and discussion topics. Reviewable on mobile before walking into the room.",
+              "icon": "IdCard"
+            },
+            {
+              "title": "Coffee Chat Roulette",
+              "description": "Optional random pairing with colleagues outside their immediate team. Builds cross-functional relationships from day one.",
+              "icon": "Coffee"
+            },
+            {
+              "title": "Calendar Integration",
+              "description": "Direct integration with Google Calendar and Outlook. Meetings appear with full context in the calendar invite body.",
+              "icon": "Calendar"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "10+", "label": "Key introductions in first week" },
+            { "value": "60%", "label": "Faster relationship building" },
+            { "value": "100%", "label": "AI-generated briefs for every meeting" },
+            { "value": "0", "label": "Awkward first conversations" }
+          ]
+        },
+        {
+          "type": "tech",
+          "title": "Technical Highlights",
+          "items": [
+            { "label": "Backend", "value": "Calendar integration + brief generation API" },
+            { "label": "API Endpoint", "value": "/api/v1/introductions" },
+            { "label": "AI", "value": "LLM-generated personalized intro briefs" },
+            { "label": "Calendar", "value": "Google Calendar + Outlook integration" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equipment-provisioning",
+      "slug": "equipment-provisioning",
+      "name": "Equipment & Access Provisioning",
+      "shortName": "Equipment",
+      "priority": "P1",
+      "status": "planned",
+      "color": "#EC4899",
+      "gradient": "from-pink-500 to-rose-600",
+      "icon": "Monitor",
+      "description": "IT equipment requests, software license provisioning, and access group assignments — all automated from the moment an offer is accepted.",
+      "hero": {
+        "headline": "Day-One Ready, Every Time",
+        "subheadline": "Laptop configured. Accounts provisioned. Software licenses activated. All before the new hire walks through the door.",
+        "cta": "Explore Equipment",
+        "ctaLink": "#features",
+        "image": "/images/equipment-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Equipment Catalog",
+              "description": "Browse and request from a catalog of standardized equipment — laptops, monitors, peripherals — with role-based defaults.",
+              "icon": "ShoppingCart"
+            },
+            {
+              "title": "Auto-Provisioning",
+              "description": "Automatically create accounts in Okta/Azure AD, assign to correct groups, and provision SaaS licenses based on role.",
+              "icon": "Key"
+            },
+            {
+              "title": "IT Ticket Automation",
+              "description": "Generates IT tickets with full context — employee details, start date, equipment list, and shipping address.",
+              "icon": "Ticket"
+            },
+            {
+              "title": "Shipment Tracking",
+              "description": "Track equipment shipments from warehouse to new hire's doorstep. Real-time status updates for HR and IT teams.",
+              "icon": "Truck"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "100%", "label": "Day-one equipment readiness" },
+            { "value": "3 days", "label": "Average provisioning lead time" },
+            { "value": "0", "label": "Manual IT tickets" },
+            { "value": "24h", "label": "Account provisioning window" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture-values",
+      "slug": "culture-values",
+      "name": "Culture & Values Integration",
+      "shortName": "Culture",
+      "priority": "P1",
+      "status": "planned",
+      "color": "#6366F1",
+      "gradient": "from-indigo-500 to-blue-600",
+      "icon": "Heart",
+      "description": "Interactive culture modules, values quizzes, team stories, and social connection prompts that immerse new hires in company culture.",
+      "hero": {
+        "headline": "Culture Isn't a Handbook — It's an Experience",
+        "subheadline": "From interactive values quizzes to coffee chat roulette, make your company culture come alive for every new team member.",
+        "cta": "Explore Culture",
+        "ctaLink": "#features",
+        "image": "/images/culture-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Interactive Culture Modules",
+              "description": "Bite-sized, engaging modules that teach company history, values, and mission — not a 50-page PDF nobody reads.",
+              "icon": "BookOpen"
+            },
+            {
+              "title": "Values Quizzes",
+              "description": "Fun, low-stakes quizzes that reinforce company values through real scenarios and team stories.",
+              "icon": "Award"
+            },
+            {
+              "title": "Team Stories & Spotlights",
+              "description": "Video and written spotlights featuring team members sharing their favorite projects, traditions, and advice.",
+              "icon": "Video"
+            },
+            {
+              "title": "Social Connection Prompts",
+              "description": "AI-suggested conversation starters and team activities based on shared interests and complementary skills.",
+              "icon": "MessageCircle"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "12", "label": "Interactive culture modules" },
+            { "value": "85%", "label": "Module completion rate" },
+            { "value": "4.8/5", "label": "New-hire satisfaction score" },
+            { "value": "100%", "label": "Values alignment visibility" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manager-dashboard",
+      "slug": "manager-dashboard",
+      "name": "Manager Dashboard & Alerts",
+      "shortName": "Manager View",
+      "priority": "P1",
+      "status": "planned",
+      "color": "#14B8A6",
+      "gradient": "from-teal-500 to-cyan-600",
+      "icon": "LayoutDashboard",
+      "description": "Manager view of all direct report onboarding progress. Smart alerts flag stalled journeys and at-risk new hires before it's too late.",
+      "hero": {
+        "headline": "Know Exactly How Your People Are Doing",
+        "subheadline": "One dashboard. All your direct reports. Real-time progress bars, sentiment scores, and smart alerts that tell you who needs help.",
+        "cta": "See the Dashboard",
+        "ctaLink": "#features",
+        "image": "/images/manager-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Unified Progress View",
+              "description": "See every direct report's onboarding progress in one view — checklist completion, document status, training progress.",
+              "icon": "Eye"
+            },
+            {
+              "title": "Risk Flagging",
+              "description": "AI analyzes engagement patterns and flags new hires who may be struggling — before they disengage or leave.",
+              "icon": "Flag"
+            },
+            {
+              "title": "Smart Alerts",
+              "description": "Configurable alerts for stalled journeys, missed deadlines, and low sentiment scores. Push, email, or Slack notifications.",
+              "icon": "Bell"
+            },
+            {
+              "title": "Intervention Suggestions",
+              "description": "When a new hire is flagged, the AI suggests concrete actions — schedule a check-in, assign a buddy, adjust the plan.",
+              "icon": "Lightbulb"
+            },
+            {
+              "title": "Weekly Digest Reports",
+              "description": "Automated weekly summary of team onboarding status — who's on track, who needs attention, and key milestones reached.",
+              "icon": "FileText"
+            },
+            {
+              "title": "Sentiment Trends",
+              "description": "Track new-hire sentiment over time from pulse surveys. Spot downward trends and act before they become problems.",
+              "icon": "TrendingUp"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "100%", "label": "Onboarding visibility for managers" },
+            { "value": "48h", "label": "Average response time to risk flags" },
+            { "value": "70%", "label": "Reduction in early turnover" },
+            { "value": "1", "label": "Dashboard for everything" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback-pulse",
+      "slug": "feedback-pulse",
+      "name": "Feedback & Pulse Checks",
+      "shortName": "Pulse",
+      "priority": "P1",
+      "status": "planned",
+      "color": "#F97316",
+      "gradient": "from-orange-500 to-red-600",
+      "icon": "Activity",
+      "description": "Micro-surveys at day 7, 30, 60, and 90. Sentiment tracking with AI-powered theme detection and actionable insights.",
+      "hero": {
+        "headline": "Listen Before It's Too Late",
+        "subheadline": "Micro-surveys at key milestones capture how new hires really feel. AI surfaces themes and trends so you can act fast.",
+        "cta": "Explore Pulse",
+        "ctaLink": "#features",
+        "image": "/images/pulse-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Scheduled Micro-Surveys",
+              "description": "Auto-delivered surveys at Day 7, 30, 60, and 90. Short, focused, and mobile-friendly — takes 2 minutes to complete.",
+              "icon": "ClipboardList"
+            },
+            {
+              "title": "Sentiment Analysis",
+              "description": "AI analyzes open-ended responses for sentiment, themes, and concerns. Quantifies the qualitative for trend detection.",
+              "icon": "BrainCircuit"
+            },
+            {
+              "title": "Theme Detection",
+              "description": "Automatically groups feedback into themes — culture fit, role clarity, tool frustration, team dynamics — with trend lines.",
+              "icon": "Tags"
+            },
+            {
+              "title": "Actionable Insights",
+              "description": "Surfaces concrete, prioritized recommendations based on feedback patterns — not just raw data, but what to do about it.",
+              "icon": "Zap"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "92%", "label": "Survey completion rate" },
+            { "value": "<2min", "label": "Time to complete a pulse survey" },
+            { "value": "4", "label": "Touchpoints in first 90 days" },
+            { "value": "100%", "label": "Feedback loop closure" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-learning-paths",
+      "slug": "ai-learning-paths",
+      "name": "AI-Generated Learning Paths",
+      "shortName": "Learning Paths",
+      "priority": "P2",
+      "status": "future",
+      "color": "#A855F7",
+      "gradient": "from-purple-500 to-fuchsia-600",
+      "icon": "GraduationCap",
+      "description": "Curate and generate personalized learning content for each role using AI. Auto-enroll in relevant courses from DClaw Learn.",
+      "hero": {
+        "headline": "Every Role Deserves a Custom Curriculum",
+        "subheadline": "AI analyzes the role, seniority, and skill gaps to generate a personalized learning path — with auto-enrollment in DClaw Learn courses.",
+        "cta": "Explore Learning",
+        "ctaLink": "#features",
+        "image": "/images/learning-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Role-Based Curriculum",
+              "description": "AI maps required skills for each role to available training content, creating a structured learning journey from day one.",
+              "icon": "BookOpen"
+            },
+            {
+              "title": "Gap Analysis",
+              "description": "Identifies skill gaps based on role requirements and new hire background. Prioritizes what to learn first.",
+              "icon": "Search"
+            },
+            {
+              "title": "Auto-Enrollment",
+              "description": "Automatically enrolls new hires in DClaw Learn courses. Tracks completion and sends smart reminders.",
+              "icon": "UserPlus"
+            },
+            {
+              "title": "Progress Tracking",
+              "description": "Visual progress tracking for each learning path. Managers can see which courses are completed and which are pending.",
+              "icon": "BarChart3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamification",
+      "slug": "gamification",
+      "name": "Gamification & Achievements",
+      "shortName": "Gamification",
+      "priority": "P2",
+      "status": "future",
+      "color": "#22C55E",
+      "gradient": "from-green-500 to-emerald-600",
+      "icon": "Trophy",
+      "description": "Make onboarding fun with badges, progress celebrations, team leaderboards, and achievement unlocks.",
+      "hero": {
+        "headline": "Onboarding Should Be Celebrated, Not Dreaded",
+        "subheadline": "Turn onboarding milestones into moments of celebration. Badges, leaderboards, and team shoutouts keep new hires engaged and motivated.",
+        "cta": "Explore Gamification",
+        "ctaLink": "#features",
+        "image": "/images/gamification-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Achievement Badges",
+              "description": "Earn badges for completing milestones — First Week Done, Document Pro, Culture Champion, Social Butterfly, and more.",
+              "icon": "Medal"
+            },
+            {
+              "title": "Progress Celebrations",
+              "description": "Confetti animations and congratulatory messages when new hires hit key milestones. Shareable to team channels.",
+              "icon": "PartyPopper"
+            },
+            {
+              "title": "Team Leaderboards",
+              "description": "Friendly competition with team-based leaderboards for onboarding completion. Drives engagement through positive peer pressure.",
+              "icon": "Trophy"
+            },
+            {
+              "title": "Milestone Unlocks",
+              "description": "Unlock new features, resources, or perks as onboarding progresses. Creates a sense of progression and discovery.",
+              "icon": "Unlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-boarding",
+      "slug": "pre-boarding",
+      "name": "Pre-Boarding",
+      "shortName": "Pre-Boarding",
+      "priority": "P2",
+      "status": "future",
+      "color": "#0EA5E9",
+      "gradient": "from-sky-500 to-blue-600",
+      "icon": "Rocket",
+      "description": "Engage candidates between offer acceptance and Day 1. Reduce ghosting with pre-start content, team teasers, and first-day prep.",
+      "hero": {
+        "headline": "The Gap Between 'Yes' and Day 1 Is Critical",
+        "subheadline": "Keep new hires warm between offer acceptance and their start date. Pre-boarding engagement reduces ghosting by up to 50%.",
+        "cta": "Explore Pre-Boarding",
+        "ctaLink": "#features",
+        "image": "/images/preboard-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Pre-Start Engagement",
+              "description": "Share company swag, team photos, and welcome messages the moment an offer is accepted. Build excitement before day one.",
+              "icon": "Gift"
+            },
+            {
+              "title": "First-Day Prep",
+              "description": "Send logistics info — where to go, what to bring, dress code, parking — so new hires feel prepared and confident.",
+              "icon": "MapPin"
+            },
+            {
+              "title": "Team Teasers",
+              "description": "Share fun profiles of team members they'll work with. Build familiarity and reduce first-day anxiety.",
+              "icon": "UserCheck"
+            },
+            {
+              "title": "Ghosting Prevention",
+              "description": "Engagement tracking and smart re-engagement campaigns. AI detects disengagement patterns and triggers personalized outreach.",
+              "icon": "Ghost"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "50%", "label": "Reduction in candidate ghosting" },
+            { "value": "2 weeks", "label": "Average pre-boarding engagement window" },
+            { "value": "95%", "label": "Pre-boarding content engagement rate" },
+            { "value": "100%", "label": "Day-one confidence score" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offboarding-companion",
+      "slug": "offboarding-companion",
+      "name": "Offboarding Companion",
+      "shortName": "Offboarding",
+      "priority": "P2",
+      "status": "future",
+      "color": "#64748B",
+      "gradient": "from-slate-500 to-gray-600",
+      "icon": "LogOut",
+      "description": "Smooth handoff to offboarding module for departing employees. Knowledge transfer, exit surveys, and alumni network integration.",
+      "hero": {
+        "headline": "Great Goodbyes Lead to Great Alumni",
+        "subheadline": "Handle departures with the same care as arrivals. Structured offboarding preserves knowledge, gathers feedback, and builds your alumni network.",
+        "cta": "Explore Offboarding",
+        "ctaLink": "#features",
+        "image": "/images/offboard-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Knowledge Transfer",
+              "description": "Structured workflows to capture and document critical knowledge before departure. Auto-assigns KT sessions with team members.",
+              "icon": "BookOpen"
+            },
+            {
+              "title": "Exit Surveys",
+              "description": "Comprehensive exit surveys with AI-powered theme analysis. Understand why people leave and what to improve.",
+              "icon": "FileText"
+            },
+            {
+              "title": "Access Revocation",
+              "description": "Automated access revocation across all systems. One-click deprovisioning that leaves no loose ends.",
+              "icon": "ShieldOff"
+            },
+            {
+              "title": "Alumni Network",
+              "description": "Keep departed employees in your orbit. Alumni portal with networking, job board, and company updates.",
+              "icon": "Network"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
