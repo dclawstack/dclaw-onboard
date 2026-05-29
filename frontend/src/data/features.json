@@ -750,7 +750,7 @@
       "slug": "stakeholder-introductions",
       "name": "Stakeholder Introductions",
       "shortName": "Intros",
-      "priority": "P2",
+      "priority": "P0",
       "status": "demo-ready",
       "color": "#22C55E",
       "gradient": "from-green-500 to-emerald-600",
@@ -809,6 +809,122 @@
             { "value": "100%", "label": "AI-generated briefs for every meeting" },
             { "value": "60%", "label": "Faster relationship building" },
             { "value": "0", "label": "Awkward first conversations" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamification-achievements",
+      "slug": "gamification-achievements",
+      "name": "Gamification & Achievements",
+      "shortName": "Gamification",
+      "priority": "P2",
+      "status": "future",
+      "color": "#FBBF24",
+      "gradient": "from-yellow-400 to-amber-500",
+      "icon": "Trophy",
+      "description": "Onboarding badges, progress celebrations, and team leaderboards that turn mandatory tasks into motivating milestones. Earn achievements for completing your first 30-day journey.",
+      "hero": {
+        "headline": "Onboarding That Feels Like Leveling Up",
+        "subheadline": "Turn checklists into achievements. Celebrate milestones, earn badges, and climb the leaderboard with teammates who joined the same week.",
+        "cta": "Explore Gamification",
+        "ctaLink": "#features",
+        "image": "/images/gamification-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Achievement Badges",
+              "description": "Earn badges for completing key onboarding milestones — first task done, first 1:1 scheduled, first training completed, full 30-day journey finished.",
+              "icon": "Award"
+            },
+            {
+              "title": "Progress Celebrations",
+              "description": "Confetti moments, streak counters, and animated celebrations when new hires hit significant milestones. Makes the mundane feel meaningful.",
+              "icon": "PartyPopper"
+            },
+            {
+              "title": "Cohort Leaderboards",
+              "description": "Friendly competition among new hires who joined the same week or month. Opt-in leaderboards with privacy controls — no pressure, all fun.",
+              "icon": "BarChart3"
+            },
+            {
+              "title": "Manager Recognition Triggers",
+              "description": "When a new hire hits a big milestone, their manager gets a nudge to send a personal congrats message. Builds connection at the right moment.",
+              "icon": "MessageCircle"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "40%", "label": "Higher task completion rate" },
+            { "value": "10+", "label": "Earnable achievement badges" },
+            { "value": "3x", "label": "More onboarding engagement vs no gamification" },
+            { "value": "Day 1", "label": "First badge available from the start" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offboarding-companion",
+      "slug": "offboarding-companion",
+      "name": "Offboarding Companion",
+      "shortName": "Offboarding",
+      "priority": "P2",
+      "status": "future",
+      "color": "#64748B",
+      "gradient": "from-slate-500 to-gray-600",
+      "icon": "DoorOpen",
+      "description": "Smooth handoff to the dclaw-offboard module when employees depart. Knowledge transfer workflows, exit interviews, access revocation, and alumni network enrollment — all automated.",
+      "hero": {
+        "headline": "Great Offboarding Is the Last Impression You Make",
+        "subheadline": "Departing employees become brand ambassadors or detractors. Automated knowledge transfer, dignified exit flows, and alumni network enrollment — all in one companion.",
+        "cta": "Explore Offboarding",
+        "ctaLink": "#features",
+        "image": "/images/offboard-hero.svg"
+      },
+      "sections": [
+        {
+          "type": "features",
+          "title": "Key Capabilities",
+          "columns": 2,
+          "items": [
+            {
+              "title": "Knowledge Transfer Workflows",
+              "description": "Structured handoff checklists, documentation templates, and AI-assisted knowledge capture to preserve critical context before an employee leaves.",
+              "icon": "FileText"
+            },
+            {
+              "title": "Automated Access Revocation",
+              "description": "On offboarding trigger, AI agents revoke all SaaS access, disable identity provider accounts, and generate a complete access-removal audit trail.",
+              "icon": "ShieldOff"
+            },
+            {
+              "title": "AI-Powered Exit Interview",
+              "description": "Conversational AI conducts the exit interview at the employee's pace. Sentiment analysis surfaces systemic themes. Anonymous summaries shared with HR.",
+              "icon": "MessageSquare"
+            },
+            {
+              "title": "Alumni Network Enrollment",
+              "description": "Automatically invites departing employees to the company alumni network. Boomerang re-hire pipeline built in from day one of departure.",
+              "icon": "Users"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "title": "Impact at a Glance",
+          "items": [
+            { "value": "100%", "label": "Access revoked within 24h of offboarding" },
+            { "value": "80%", "label": "Exit interview completion rate" },
+            { "value": "30%", "label": "Boomerang hire rate from alumni network" },
+            { "value": "0", "label": "Knowledge gaps from unplanned departures" }
           ]
         }
       ]
